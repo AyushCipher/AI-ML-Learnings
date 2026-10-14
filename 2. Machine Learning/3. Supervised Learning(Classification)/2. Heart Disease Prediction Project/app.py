@@ -1,11 +1,13 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
 
-# Load saved model, scaler, and expected columns
-model = joblib.load("knn_heart_model.pkl")
-scaler = joblib.load("heart_scaler.pkl")
-expected_columns = joblib.load("heart_columns.pkl")
+# Resolve artifact paths relative to the current script directory
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(CURRENT_DIR, "knn_heart_model.pkl"))
+scaler = joblib.load(os.path.join(CURRENT_DIR, "heart_scaler.pkl"))
+expected_columns = joblib.load(os.path.join(CURRENT_DIR, "heart_columns.pkl"))
 
 st.title("Heart Stroke Prediction by akarsh")
 st.markdown("Provide the following details to check your heart stroke risk:")
