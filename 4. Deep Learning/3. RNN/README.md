@@ -10,6 +10,7 @@ Welcome to the **Recurrent Neural Networks (RNN)** foundational module of the De
 4. Deep Learning/
 └── 3. RNN/
     ├── README.md                                                        # Module Index & Theory Guide
+    ├── Colah_RNN_LSTM_GRU_Notes.md                                      # 🧠 Colah's Blog Interview & Examination Notes
     ├── Deep Learning - RNN.pdf                                          # Visual Lecture Notes (22MB)
     ├── app.py                                                           # Interactive Streamlit Web Application
     ├── data/                                                            # Centralized Datasets
@@ -26,6 +27,8 @@ Welcome to the **Recurrent Neural Networks (RNN)** foundational module of the De
         ├── 4. Advanced Project - Next-Word Prediction & Text Generation System.ipynb # 🔴 Level 4: Quotes Autoregressive Engine
         └── 5. Masterclass - Complete RNN End-to-End Curriculum.ipynb    # 🏆 Unified Complete Masterclass
 ```
+
+> 💡 **Featured Study Guide**: For deep-dive theoretical interviews and university examinations based on Christopher Olah's seminal essay, consult [`Colah_RNN_LSTM_GRU_Notes.md`](file:///c:/Users/ayush/OneDrive/Desktop/TagPractice/Gen-AI-Learnings/4.%20Deep%20Learning/3.%20RNN/Colah_RNN_LSTM_GRU_Notes.md) covering cell state conveyor belt mechanics, step-by-step gate derivations, parameter calculations, and top 15 interview Q&A.
 
 ---
 
